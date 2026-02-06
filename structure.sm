@@ -1,0 +1,29 @@
+src/
+├── App.tsx
+├── index.css
+├── types/
+│   └── dashboard.types.ts
+├── constants/
+│   └── dashboard.constants.ts
+├── hooks/
+│   ├── useAnimatedCounter.ts
+│   └── useDashboardData.ts
+├── utils/
+│   └── dataGenerators.ts
+├── components/
+│   ├── ui/
+│   │   ├── Card.tsx
+│   │   ├── CardSkeleton.tsx
+│   │   ├── FilterButton.tsx
+│   │   └── AnimatedCounter.tsx
+│   ├── charts/
+│   │   ├── CustomTooltip.tsx
+│   │   ├── SalesLineChart.tsx
+│   │   ├── ProductBarChart.tsx
+│   │   └── CategoryPieChart.tsx
+│   ├── StatCard.tsx
+│   ├── StatsGrid.tsx
+│   ├── DashboardHeader.tsx
+│   └── Dashboard.tsx
+└── data/
+    └── mockData.ts

@@ -1,0 +1,230 @@
+# =============================================================================
+# Dependencies
+# =============================================================================
+
+node_modules/
+.pnp/
+.pnp.js
+
+# =============================================================================
+# Build outputs
+# =============================================================================
+
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+
+# =============================================================================
+# Cache directories
+# =============================================================================
+
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# =============================================================================
+# Testing
+# =============================================================================
+
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# =============================================================================
+# Environment files
+# =============================================================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Keep example env file
+!.env.example
+
+# =============================================================================
+# IDE and Editor files
+# =============================================================================
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains (WebStorm, IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# =============================================================================
+# OS generated files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# Logs
+# =============================================================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =============================================================================
+# Runtime data
+# =============================================================================
+
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================================================
+# Package manager files
+# =============================================================================
+
+# npm
+package-lock.json
+
+# Yarn
+yarn.lock
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# pnpm
+pnpm-lock.yaml
+
+# Note: Uncomment the lock file you want to keep
+# !package-lock.json
+# !yarn.lock
+# !pnpm-lock.yaml
+
+# =============================================================================
+# TypeScript
+# =============================================================================
+
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# =============================================================================
+# Optional: Storybook
+# =============================================================================
+
+storybook-static/
+.storybook-out/
+
+# =============================================================================
+# Optional: Documentation
+# =============================================================================
+
+docs/_build/
+.docusaurus/
+
+# =============================================================================
+# Temporary files
+# =============================================================================
+
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+# Sentry
+.sentryclirc
+
+# Vercel
+.vercel/
+
+# Netlify
+.netlify/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# AWS
+.aws-sam/
+
+# Docker
+docker-compose.override.yml
+
+# Local files
+*.local
+local/
+
+# Certificates
+*.pem
+*.key
+*.crt
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
