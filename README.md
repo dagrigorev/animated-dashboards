@@ -1,4 +1,3 @@
-```markdown
 # 📊 Interactive Data Dashboard
 
 A modern, animated data visualization dashboard built with React, TypeScript, Framer Motion, and Recharts.
