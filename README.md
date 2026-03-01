@@ -230,9 +230,9 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 
 ## 📧 Contact
 
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Author**: Dmitry Grigorev
+- **Email**: dmitryandreevichgr@gmail.com
+- **GitHub**: [@dagrigorev](https://github.com/dagrigorev)
 
 ## 🙏 Acknowledgments
 
@@ -245,4 +245,3 @@ Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md)
 <p align="center">
   Made with ❤️ and React
 </p>
-```
